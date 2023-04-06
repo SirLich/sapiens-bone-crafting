@@ -1,0 +1,26 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Sapiens-OSS/hammerstone-framework/feature/data-driven-api/schemas/object.schema.json",
+	"hammerstone:object_definition": {
+		"description": {
+			"identifier": "bone_chair"
+		},
+		"components": {
+			"hs_object": {
+				"model": "boneChair"
+			},
+			"hs_buildable": {
+				"seat_type": "bone_chair",
+				"sequence": "researchBuildSequence",
+				"skills": [
+					"basicBuilding"
+				],
+				"resources": [
+					{
+						"resource": "bone",
+						"count": 6
+					}
+				]
+			}
+		}
+	}
+}

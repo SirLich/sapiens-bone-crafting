@@ -1,0 +1,22 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Sapiens-OSS/hammerstone-framework/feature/data-driven-api/schemas/storage.schema.json",
+    "hammerstone:storage_definition": {
+        "description": {
+            "identifier": "skull_storage"
+        },
+        "components": {
+            "hs_carry": {
+                "hs_carry_count": {
+                    "normal": 1,
+                    "limited_ability": 0,
+                    "running": 0
+                },
+                "carry_type": "standard"
+            },
+            "hs_storage": {
+                "display_object": "sheep_skull",
+                "item_size": [0.4, 0.4, 0.4]
+            }
+        }
+    }
+}

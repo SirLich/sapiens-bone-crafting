@@ -1,0 +1,37 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Sapiens-OSS/hammerstone-framework/feature/data-driven-api/schemas/recipe.schema.json",
+	"hammerstone:recipe_definition": {
+		"description": {
+			"identifier": "giant_bone_recipe"
+		},
+		"components": {
+			"hs_recipe": {
+				"display_object": "giant_bone",
+				"props": {
+					"disabledUntilCraftableResearched": true
+				}
+			},
+			"hs_build_sequence": {
+				"action_sequence": "scrapeWood"
+			},
+			"hs_output": {
+				"simple_output": [
+					"giant_bone"
+				]
+			},
+			"hs_requirements": {
+				"skills": [
+					"boneCarving"
+				],
+				"tool_types": [
+					"carving"
+				],
+				"resources": [
+					{
+						"resource": "bone"
+					}
+				]
+			}
+		}
+	}
+}

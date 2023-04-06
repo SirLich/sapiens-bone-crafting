@@ -1,0 +1,14 @@
+{
+	"hammerstone:global_definitions": {
+		"hs_materials": [
+			{
+				"identifier": "darkBone",
+				"color": [
+					0.1, 0.09, 0.08
+				],
+				"metal": 0,
+				"roughness": 1.0
+			}
+		]
+	}
+}

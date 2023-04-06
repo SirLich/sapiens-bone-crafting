@@ -1,0 +1,17 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Sapiens-OSS/hammerstone-framework/feature/data-driven-api/schemas/object.schema.json",
+	"hammerstone:object_definition": {
+		"description": {
+			"identifier": "wind_chimes"
+		},
+		"components": {
+			"hs_object": {
+				"model": "boneWindChimes"
+			},
+			
+			"hs_resource": {
+				"link_to_storage": "skull_storage"
+			}
+		}
+	}
+}
