@@ -1,0 +1,26 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Sapiens-OSS/hammerstone-framework/feature/data-driven-api/schemas/object.schema.json",
+	"hammerstone:object_definition": {
+		"description": {
+			"identifier": "bone_hatchet"
+		},
+		"components": {
+			"hs_object": {
+				"model": "boneAxe"
+			},
+			"hs_resource": {
+				"link_to_storage": "hatchet"
+			},
+			"hs_tool": {
+				"tool_usage": [
+					{
+						"tool_type": "treeChop",
+						"damage": 1,
+						"durability": 1,
+						"speed": 1
+					}
+				]
+			}
+		}
+	}
+}

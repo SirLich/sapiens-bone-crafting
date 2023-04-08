@@ -6,14 +6,13 @@
 		},
 		"components": {
 			"hs_object": {
-				"model": "boneChair"
+				"model": "boneChair",
+				"available_plans": "availablePlansForCampfires"
 			},
 			"hs_buildable": {
 				"seat_type": "bone_chair",
+				"skill": "basicBuilding",
 				"sequence": "researchBuildSequence",
-				"skills": [
-					"basicBuilding"
-				],
 				"resources": [
 					{
 						"resource": "bone",
@@ -29,42 +28,27 @@
 					{
 						"key": "bone_2",
 						"default_model": "bone_chairLeg",
-						"resource": "bone",
-						"remaps": {
-							"bone": "bone_chairLeg"	
-						}
+						"resource": "bone"
 					},
 					{
 						"key": "bone_3",
 						"default_model": "bone_chairLeg",
-						"resource": "bone",
-						"remaps": {
-							"bone": "bone_chairLeg"	
-						}
+						"resource": "bone"
 					},
 					{
 						"key": "bone_4",
 						"default_model": "bone_chairLeg",
-						"resource": "bone",
-						"remaps": {
-							"bone": "bone_chairLeg"	
-						}
+						"resource": "bone"
 					},
 					{
 						"key": "bone_5",
 						"default_model": "bone_chairSeat",
-						"resource": "bone",
-						"remaps": {
-							"bone": "bone_chairSeat"
-						}
+						"resource": "bone"
 					},
 					{
 						"key": "bone_6",
 						"default_model": "bone_chairBack",
-						"resource": "bone",
-						"remaps": {
-							"bone": "bone_chairBack"
-						}
+						"resource": "bone"
 					},
 					{
 						"key": "bone_store",
