@@ -11,8 +11,15 @@
 			"hs_resource": {
 				"link_to_storage": "bowl"
 			},
+			"hs_evolving_object": {
+				"time_years": 0.5,
+				"category": "rot",
+				"transform_to": [
+					"firedBowl"
+				]
+			},
 			"hs_food": {
-				"value": 1,
+				"value": 0.7,
 				"portions": 1,
 				"items_when_eaten": [
 					"firedBowl"
