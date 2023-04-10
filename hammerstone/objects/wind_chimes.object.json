@@ -8,9 +8,8 @@
 			"hs_object": {
 				"model": "boneWindChimes"
 			},
-			
 			"hs_resource": {
-				"link_to_storage": "skull_storage"
+				"storage_identifier": "skull_storage"
 			}
 		}
 	}

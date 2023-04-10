@@ -1,0 +1,55 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Sapiens-OSS/hammerstone-schemas/main/schemas/object.schema.json",
+	"hammerstone:object_definition": {
+		"description": {
+			"identifier": "bone_broth"
+		},
+		"components": {
+			"hs_object": {
+				"model": "boneBroth"
+			},
+			"hs_resource": {
+				"storage_identifier": "bowl"
+			},
+			"hs_evolving_object": {
+				"time_years": 0.5,
+				"category": "rot",
+				"transform_to": [
+					"firedBowl"
+				]
+			},
+			"hs_food": {
+				"value": 0.7,
+				"portions": 1,
+				"items_when_eaten": [
+					"firedBowl"
+				]
+			},
+			"hs_craftable": {
+				"display_object": "bone_broth",
+				"skill": "campfireCooking",
+				"action_sequence": "fireStickCook",
+				"craft_area": "campfire",
+				"hs_output": {
+					"simple_output": [
+						"bone_broth"
+					]
+				},
+				"resources": [
+					{
+						"resource": "firedBowl",
+						"action": {
+							"action_type": "inspect",
+							"duration": 0.5,
+							"duration_without_skill": 15
+						}
+					},
+					{
+						"resource": "bone", 
+						"count": 2
+					}
+				]
+			}
+		}
+	}
+}

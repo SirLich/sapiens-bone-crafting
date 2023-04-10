@@ -9,7 +9,7 @@
 				"model": "mammothTuskDecoration"
 			},
 			"hs_resource": {
-				"link_to_storage": "bone_storage"
+				"storage_identifier": "bone_storage"
 			}
 		}
 	}
