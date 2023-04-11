@@ -1,6 +1,7 @@
 {
 	"$schema": "https://raw.githubusercontent.com/Sapiens-OSS/hammerstone-schemas/main/schemas/object.schema.json",
 	"hammerstone:object_definition": {
+		"debug": true,
 		"description": {
 			"identifier": "bone_chair"
 		},
@@ -11,6 +12,7 @@
 			"hs_buildable": {
 				"skill": "basicBuilding",
 				"action_sequence": "buildMoveComponent",
+				"classification": "build",
 				"seat_type": "bone_chair",
 				"resources": [
 					{

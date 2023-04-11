@@ -3,9 +3,14 @@ local localizations = {}
 localizations.values = {
     object_bone_broth = "Bone Broth",
     object_bone_broth_plural = "Bone Broth",
+    object_bone_broth_summary = "A gruesome stew, poor in nurishment.",
 
     object_bone_hatchet = "Great Bone Axe",
     object_bone_hatchet_plural = "Great Bone Axes",
+
+    object_bone_mask = "Bone Mask",
+    object_bone_mask_plural = "Bone Masks",
+    object_bone_mask_summary = "A decorative mask. Can only be placed as a decoration.",
 
     object_bone_chair = "Bone Chair",
     object_bone_chair_plural = "Bone Chairs",

@@ -1,0 +1,37 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Sapiens-OSS/hammerstone-schemas/main/schemas/object.schema.json",
+	"hammerstone:object_definition": {
+		"description": {
+			"identifier": "bone_mask"
+		},
+		"components": {
+			"hs_object": {
+				"model": "boneMask"
+			},
+			"hs_resource": {
+				"storage_identifier": "bone_storage"
+			},
+			"hs_craftable": {
+				"skill": "boneCarving",
+				"tool": "carving",
+				"action_sequence": "scrapeWood",
+				"hs_output": {
+					"simple_output": [
+						"bone_mark"
+					]
+				},
+				"resources": [
+					{
+						"resource": "bone", 
+						"count": 3,
+						"action": {
+							"action_type": "knap",
+							"duration": 0.5,
+							"duration_without_skill": 2
+						}
+					}
+				]
+			}
+		}
+	}
+}

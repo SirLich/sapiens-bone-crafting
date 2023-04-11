@@ -10,6 +10,22 @@
 				"roughness": 1.0
 			},
 			{
+				"identifier": "redBone",
+				"color": [
+					0.6, 0.09, 0.08
+				],
+				"metal": 0,
+				"roughness": 1.0
+			},
+			{
+				"identifier": "blackBone",
+				"color": [
+					0.6, 0.6, 0.6
+				],
+				"metal": 0,
+				"roughness": 0.8
+			},
+			{
 				"identifier": "broth",
 				"color": [
 					0.8,
