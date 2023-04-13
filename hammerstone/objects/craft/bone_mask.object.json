@@ -17,7 +17,7 @@
 				"action_sequence": "scrapeWood",
 				"hs_output": {
 					"simple_output": [
-						"bone_mark"
+						"bone_mask"
 					]
 				},
 				"resources": [
