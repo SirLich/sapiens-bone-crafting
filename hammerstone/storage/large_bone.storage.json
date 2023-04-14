@@ -2,7 +2,7 @@
     "$schema": "https://raw.githubusercontent.com/Sapiens-OSS/hammerstone-framework/feature/data-driven-api/schemas/storage.schema.json",
     "hammerstone:storage_definition": {
         "description": {
-            "identifier": "bone_storage"
+            "identifier": "large_bone_storage"
         },
         "components": {
             "hs_carry": {
@@ -14,7 +14,7 @@
                 "carry_type": "highMedium"
             },
             "hs_storage": {
-                "display_object": "giant_bone",
+                "display_object": "large_bone",
                 "item_size": [2.0, 0.12, 0.35]
             }
         }

@@ -1,15 +1,15 @@
 {
-	"$schema": "https://raw.githubusercontent.com/Sapiens-OSS/hammerstone-schemas/main/schemas/object.schema.json",
+	"$schema": "https://raw.githubusercontent.com/Sapiens-OSS/hammerstone-framework/feature/data-driven-api/schemas/object.schema.json",
 	"hammerstone:object_definition": {
 		"description": {
-			"identifier": "bone_mask"
+			"identifier": "sheep_skull"
 		},
 		"components": {
 			"hs_object": {
-				"model": "boneMask"
+				"model": "sheepSkull"
 			},
 			"hs_resource": {
-				"storage_identifier": "mask_storage"
+				"storage_identifier": "skull_storage"
 			},
 			"hs_craftable": {
 				"skill": "boneCarving",
@@ -17,13 +17,13 @@
 				"action_sequence": "scrapeWood",
 				"hs_output": {
 					"simple_output": [
-						"bone_mask"
+						"sheep_skull"
 					]
 				},
 				"resources": [
 					{
 						"resource": "bone", 
-						"count": 3,
+						"count": 5,
 						"action": {
 							"action_type": "knap",
 							"duration": 0.5,

@@ -12,7 +12,6 @@
 			"hs_buildable": {
 				"skill": "basicBuilding",
 				"build_sequence": "clearObjectsAndTerrainSequence",
-				"build_completion_plan": "light",
 				"classification": "build",
 				"seat_type": "bone_chair",
 				"resources": [

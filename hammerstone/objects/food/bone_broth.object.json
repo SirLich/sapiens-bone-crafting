@@ -26,11 +26,13 @@
 				]
 			},
 			"hs_craftable": {
+				"props": {
+					"isFoodPreperation": true
+				},
 				"display_object": "bone_broth",
 				"skill": "campfireCooking",
 				"action_sequence": "fireStickCook",
 				"craft_area": "campfire",
-				"build_model": "buildBoneBroth",
 				"hs_output": {
 					"simple_output": [
 						"bone_broth"

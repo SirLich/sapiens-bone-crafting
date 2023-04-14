@@ -10,17 +10,17 @@
 				"roughness": 1.0
 			},
 			{
-				"identifier": "redBone",
+				"identifier": "boneRed",
 				"color": [
-					0.6, 0.09, 0.08
+					0.3, 0.05, 0.04
 				],
 				"metal": 0,
 				"roughness": 1.0
 			},
 			{
-				"identifier": "blackBone",
+				"identifier": "boneBlack",
 				"color": [
-					0.6, 0.6, 0.6
+					0.1, 0.1, 0.1
 				],
 				"metal": 0,
 				"roughness": 0.8
