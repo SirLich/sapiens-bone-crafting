@@ -1,7 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/Sapiens-OSS/hammerstone-schemas/main/schemas/object.schema.json",
 	"hammerstone:object_definition": {
-		"debug": true,
 		"description": {
 			"identifier": "bone_chair"
 		},

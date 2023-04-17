@@ -1,0 +1,53 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Sapiens-OSS/hammerstone-framework/feature/data-driven-api/schemas/object.schema.json",
+	"hammerstone:object_definition": {
+		"description": {
+			"identifier": "wind_chimes"
+		},
+		"components": {
+			"hs_object": {
+				"model": "boneWindChimes"
+			},
+			"hs_buildable": {
+				"skill": "basicBuilding",
+				"build_sequence": "clearObjectsAndTerrainSequence",
+				"classification": "build",
+				"resources": [
+					{
+						"resource": "branch", 
+						"count": 1
+					},
+					{
+						"resource": "bone", 
+						"count": 2
+					}
+				],
+				"model_placeholder": [
+					{
+						"key": "branch_1",
+						"default_model": "windChime_top",
+						"resource": "branch"
+					},
+					{
+						"key": "bone_1",
+						"default_model": "windChime_bone1",
+						"resource": "bone"
+					},
+					{
+						"key": "bone_2",
+						"default_model": "windChime_bone2",
+						"resource": "bone"
+					},
+					{
+						"key": "bone_store",
+						"is_store": true
+					},
+					{
+						"key": "branch_store",
+						"is_store": true
+					}
+				]
+			}
+		}
+	}
+}
