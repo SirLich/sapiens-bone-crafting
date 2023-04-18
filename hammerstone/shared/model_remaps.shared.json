@@ -1,0 +1,76 @@
+{
+	"hammerstone:global_definitions": {
+        "hs_model_remaps": [
+            {
+                "model": "windChime_top_apple",
+                "base_model": "windChime_top",
+                "material_remaps": [
+                    {
+                        "from": "wood",
+                        "to": "appleWood"
+                    }
+                ]
+            },
+			{
+                "model": "windChime_top_orange",
+                "base_model": "windChime_top",
+                "material_remaps": [
+                    {
+                        "from": "wood",
+                        "to": "orangeWood"
+                    }
+                ]
+            },
+			{
+                "model": "windChime_top_peach",
+                "base_model": "windChime_top",
+                "material_remaps": [
+                    {
+                        "from": "wood",
+                        "to": "peachWood"
+                    }
+                ]
+            },
+			{
+                "model": "windChime_top_willow",
+                "base_model": "windChime_top",
+                "material_remaps": [
+                    {
+                        "from": "wood",
+                        "to": "willowWood"
+                    }
+                ]
+            },
+			{
+                "model": "windChime_top_coconut",
+                "base_model": "windChime_top",
+                "material_remaps": [
+                    {
+                        "from": "wood",
+                        "to": "coconutWood"
+                    }
+                ]
+            },
+			{
+                "model": "windChime_top_elderberry",
+                "base_model": "windChime_top",
+                "material_remaps": [
+                    {
+                        "from": "wood",
+                        "to": "elderberryWood"
+                    }
+                ]
+            },
+			{
+                "model": "windChime_top_light",
+                "base_model": "windChime_top",
+                "material_remaps": [
+                    {
+                        "from": "wood",
+                        "to": "lightWood"
+                    }
+                ]
+            }
+		]
+	}
+}

@@ -26,7 +26,17 @@
 					{
 						"key": "branch_1",
 						"default_model": "windChime_top",
-						"resource": "branch"
+						"resource": "branch",
+						"remaps": {
+							"pineBranch": "windChime_top",
+							"birchBranch": "windChime_top_light",
+							"aspenBranch": "windChime_top_light",
+							"coconutBranch": "windChime_top_coconut",
+							"elderberryBranch": "windChime_top_elderberry",
+							"orangeBranch": "windChime_top_orange",
+							"peachBranch": "windChime_top_peach",
+							"appleBranch": "windChime_top_apple"
+						}
 					},
 					{
 						"key": "bone_1",
