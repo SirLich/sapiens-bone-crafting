@@ -7,7 +7,7 @@
 				"nodes": [
 					{
 						"key": "seatNode_1",
-						"type": "yUpForwardBack"
+						"type": "yUpForwardOnly"
 					}
 				]
 			}
