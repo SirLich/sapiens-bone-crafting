@@ -1,11 +1,11 @@
 {
 	"hammerstone:object_definition": {
 		"description": {
-			"identifier": "bone_mask"
+			"identifier": "moon_mask"
 		},
 		"components": {
 			"hs_object": {
-				"model": "boneMask"
+				"model": "moonMask"
 			},
 			"hs_resource": {
 				"storage_identifier": "mask_storage"
@@ -16,7 +16,7 @@
 				"action_sequence": "scrapeWood",
 				"hs_output": {
 					"simple_output": [
-						"bone_mask"
+						"moon_mask"
 					]
 				},
 				"resources": [

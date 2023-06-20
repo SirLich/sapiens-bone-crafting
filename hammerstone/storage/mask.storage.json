@@ -1,5 +1,4 @@
 {
-    "$schema": "https://raw.githubusercontent.com/Sapiens-OSS/hammerstone-schemas/main/schemas/storage.schema.json",
     "hammerstone:storage_definition": {
         "description": {
             "identifier": "mask_storage"

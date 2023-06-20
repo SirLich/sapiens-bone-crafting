@@ -14,7 +14,7 @@ Bone Crafting is an 'Expansion Mod' for [Sapiens](https://www.playsapiens.com/),
 ![](assets/screenshot.png)
 
 ### Decorations
- - Bone Mask
+ - Bone Mask x3
  - Tusk
  - Wind Chimes
  - Sheep Skull
@@ -28,3 +28,14 @@ Bone Crafting is an 'Expansion Mod' for [Sapiens](https://www.playsapiens.com/),
 
 ### Buildables
  - Bone Chair
+
+# Updates
+
+## 1.0.0
+
+The first release of Bone Crafting
+
+## 1.1.0
+
+ - Fixes a crash when previewing storage areas, or creating routes
+ - Adds x2 new mask decorations

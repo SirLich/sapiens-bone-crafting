@@ -14,6 +14,14 @@ localizations.values = {
     object_bone_mask_plural = "Bone Masks",
     object_bone_mask_summary = "A decorative mask. Can only be placed as a decoration.",
 
+    object_sun_mask = "Sun Mask",
+    object_sun_mask_plural = "Sun Masks",
+    object_sun_mask_summary = "A decorative mask. Can only be placed as a decoration.",
+
+    object_moon_mask = "Moon Mask",
+    object_moon_mask_plural = "Moon Masks",
+    object_moon_mask_summary = "A decorative mask. Can only be placed as a decoration.",
+
     object_bone_chair = "Bone Chair",
     object_bone_chair_plural = "Bone Chairs",
     object_bone_chair_summary = "Sit comfortable on the bones of your enemies.",

@@ -1,5 +1,4 @@
 {
-    "$schema": "https://raw.githubusercontent.com/Sapiens-OSS/hammerstone-framework/feature/data-driven-api/schemas/storage.schema.json",
     "hammerstone:storage_definition": {
         "description": {
             "identifier": "skull_storage"
