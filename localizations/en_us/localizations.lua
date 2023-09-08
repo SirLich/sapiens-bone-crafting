@@ -42,6 +42,10 @@ localizations.values = {
     object_wind_chimes_plural = "Bone Windchimes",
     object_wind_chimes_summary = "A decorative windchime object.",
 
+    object_bone_meal = "Bone Meal",
+    object_bone_meal_plural = "Bone Meal",
+    object_bone_meal_summary = "A bone-based fertilizer.",
+
     -- STORAGE AREAS
     storage_large_bone_storage = "Large Bones",
     storage_skull_storage = "Skulls",

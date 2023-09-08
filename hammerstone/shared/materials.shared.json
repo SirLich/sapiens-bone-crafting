@@ -10,6 +10,14 @@
 				"roughness": 1.0
 			},
 			{
+				"identifier": "boneMealBowl",
+				"color": [
+					0.2, 0.12, 0.09
+				],
+				"metal": 0,
+				"roughness": 0.8
+			},
+			{
 				"identifier": "boneRed",
 				"color": [
 					0.3, 0.05, 0.04

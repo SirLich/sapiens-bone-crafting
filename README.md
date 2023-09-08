@@ -39,3 +39,8 @@ The first release of Bone Crafting
 
  - Fixes a crash when previewing storage areas, or creating routes
  - Adds x2 new mask decorations
+
+## 1.2.0 (UNRELEASED)
+
+ - Adds bone meal
+ - 
