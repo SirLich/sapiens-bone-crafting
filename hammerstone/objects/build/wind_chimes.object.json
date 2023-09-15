@@ -1,5 +1,4 @@
 {
-	"$schema": "https://raw.githubusercontent.com/Sapiens-OSS/hammerstone-framework/feature/data-driven-api/schemas/object.schema.json",
 	"hammerstone:object_definition": {
 		"description": {
 			"identifier": "wind_chimes"
@@ -10,6 +9,7 @@
 			},
 			"hs_buildable": {
 				"skill": "basicBuilding",
+				"research": "boneCarving",
 				"build_sequence": "clearObjectsAndTerrainSequence",
 				"classification": "build",
 				"resources": [
@@ -32,6 +32,7 @@
 							"birchBranch": "windChime_top_light",
 							"aspenBranch": "windChime_top_light",
 							"coconutBranch": "windChime_top_coconut",
+							"bambooBranch": "windChime_top_coconut",
 							"elderberryBranch": "windChime_top_elderberry",
 							"orangeBranch": "windChime_top_orange",
 							"peachBranch": "windChime_top_peach",

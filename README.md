@@ -40,7 +40,8 @@ The first release of Bone Crafting
  - Fixes a crash when previewing storage areas, or creating routes
  - Adds x2 new mask decorations
 
-## 1.2.0 (UNRELEASED)
+## 1.2.0
 
- - Adds bone meal
- - 
+ - Locks the wind-chime and bone-chair buildables until bone carving has been discovered for the first time
+ - Fixes bug for the bamboo variant of wind-chimes
+ - Introduces bone-meal fertilizer

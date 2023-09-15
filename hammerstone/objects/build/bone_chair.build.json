@@ -10,6 +10,7 @@
 			},
 			"hs_buildable": {
 				"skill": "basicBuilding",
+				"research": "boneCarving",
 				"build_sequence": "clearObjectsAndTerrainSequence",
 				"classification": "build",
 				"seat_type": "bone_chair",

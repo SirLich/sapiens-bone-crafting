@@ -1,6 +1,9 @@
 return {
 	description = {
-		identifier = "bone_meal"
+		identifier = "bone_meal",
+		name = "Bone Meal",
+		plural = "Bone Meal",
+		description = "Fertilizer substitute, made from crushed bones."
 	},
 	components = {
 		hs_object = {
