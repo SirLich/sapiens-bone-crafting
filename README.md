@@ -2,46 +2,54 @@
 
 Bone Crafting is an 'Expansion Mod' for [Sapiens](https://www.playsapiens.com/), which introduces all kinds of bone-related items and recipes.
 
- - [STEAM LINK](https://steamcommunity.com/sharedfiles/filedetails/?id=2966239212)
+- [STEAM LINK](https://steamcommunity.com/sharedfiles/filedetails/?id=2966239212)
 
 ## Using the Mod
- - The mod requires [Hammerstone](https://steamcommunity.com/sharedfiles/filedetails/?id=2840825226).
- - [Join the discord for Support.](https://discord.gg/WnN8hj2Fyg)
 
+- The mod requires [Hammerstone](https://steamcommunity.com/sharedfiles/filedetails/?id=2840825226).
+- [Join the discord for Support.](https://discord.gg/WnN8hj2Fyg)
 
 ## Contents
 
 ![](assets/screenshot.png)
 
 ### Decorations
- - Bone Mask x3
- - Tusk
- - Wind Chimes
- - Sheep Skull
- - Giant Bone Decoration
+
+- Bone Mask x3
+- Tusk
+- Wind Chimes
+- Sheep Skull
+- Giant Bone Decoration
 
 ### Food
- - Bone Broth
+
+- Bone Broth
 
 ### Tools
- - Bone Great Axe
+
+- Bone Great Axe
 
 ### Buildables
- - Bone Chair
+
+- Bone Chair
 
 # Updates
+
+## 1.3.0
+
+- Support for Sapiens 0.5
+
+## 1.2.0
+
+- Locks the wind-chime and bone-chair buildables until bone carving has been discovered for the first time
+- Fixes bug for the bamboo variant of wind-chimes
+- Introduces bone-meal fertilizer
+
+## 1.1.0
+
+- Fixes a crash when previewing storage areas, or creating routes
+- Adds x2 new mask decorations
 
 ## 1.0.0
 
 The first release of Bone Crafting
-
-## 1.1.0
-
- - Fixes a crash when previewing storage areas, or creating routes
- - Adds x2 new mask decorations
-
-## 1.2.0
-
- - Locks the wind-chime and bone-chair buildables until bone carving has been discovered for the first time
- - Fixes bug for the bamboo variant of wind-chimes
- - Introduces bone-meal fertilizer
