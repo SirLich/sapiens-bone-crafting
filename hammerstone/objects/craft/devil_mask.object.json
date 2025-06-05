@@ -1,11 +1,11 @@
 {
   "hammerstone:object_definition": {
     "description": {
-      "identifier": "mammoth_mask"
+      "identifier": "devil_mask"
     },
     "components": {
       "hs_object": {
-        "model": "mammothMask"
+        "model": "devilMask"
       },
       "hs_resource": {
         "storage_identifier": "mask_storage"
