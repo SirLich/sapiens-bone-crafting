@@ -1,0 +1,34 @@
+{
+  "hammerstone:object_definition": {
+    "description": {
+      "identifier": "mammoth_mask"
+    },
+    "components": {
+      "hs_object": {
+        "model": "mammothMask"
+      },
+      "hs_resource": {
+        "storage_identifier": "mask_storage"
+      },
+      "hs_craftable": {
+        "skill": "boneCarving",
+        "tool": "carving",
+        "action_sequence": "scrapeWood",
+        "hs_output": {
+          "simple_output": ["bone_mask"]
+        },
+        "resources": [
+          {
+            "resource": "bone",
+            "count": 3,
+            "action": {
+              "action_type": "knap",
+              "duration": 0.5,
+              "duration_without_skill": 15
+            }
+          }
+        ]
+      }
+    }
+  }
+}
