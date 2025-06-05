@@ -22,9 +22,9 @@ localizations.values = {
     object_moon_mask_plural = "Moon Masks",
     object_moon_mask_summary = "A decorative mask. Can only be placed as a decoration.",
 
-    object_mammoth_mask = "Mammoth Mask",
-    object_mammoth_mask_plural = "Mammoth Masks",
-    object_mammoth_mask_summary = "A decorative mask. Can only be placed as a decoration.",
+    object_devil_mask = "Devil Mask",
+    object_devil_mask_plural = "Devil Masks",
+    object_devil_mask_summary = "A decorative mask. Can only be placed as a decoration.",
 
     object_bone_chair = "Bone Chair",
     object_bone_chair_plural = "Bone Chairs",
