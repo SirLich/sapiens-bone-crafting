@@ -1,43 +1,42 @@
 {
-	"$schema": "https://raw.githubusercontent.com/Sapiens-OSS/hammerstone-schemas/main/schemas/object.schema.json",
-	"hammerstone:object_definition": {
-		"description": {
-			"identifier": "bone_hatchet"
-		},
-		"components": {
-			"hs_object": {
-				"model": "boneHatchet"
-			},
-			"hs_resource": {
-				"storage_identifier": "hatchet"
-			},
-			"hs_tool": {
-				"treeChop": {
-					"durability": 3,
-					"speed": 3
-				}
-			},
-			"hs_craftable": {
-				"skill": "toolAssembly",
-				"action_sequence": "toolAssembly",
-				"tool": "knapping",
-				"hs_output": {
-					"simple_output": [
-						"bone_hatchet"
-					]
-				},
-				"resources": [
-					{
-						"resource": "bone", 
-						"count": 10,
-						"action": {
-							"action_type": "knap",
-							"duration": 10,
-							"duration_without_skill": 30
-						}
-					}
-				]
-			}
-		}
-	}
+  "$schema": "https://raw.githubusercontent.com/Sapiens-OSS/hammerstone-schemas/main/schemas/object.schema.json",
+  "hammerstone:object_definition": {
+    "debug": true,
+    "description": {
+      "identifier": "bone_hatchet"
+    },
+    "components": {
+      "hs_object": {
+        "model": "boneHatchet"
+      },
+      "hs_resource": {
+        "storage_identifier": "hatchet"
+      },
+      "hs_tool": {
+        "treeChop": {
+          "durability": 3,
+          "speed": 3
+        }
+      },
+      "hs_craftable": {
+        "skill": "toolAssembly",
+        "action_sequence": "toolAssembly",
+        "tool": "knapping",
+        "hs_output": {
+          "simple_output": ["bone_hatchet"]
+        },
+        "resources": [
+          {
+            "resource": "bone",
+            "count": 10,
+            "action": {
+              "action_type": "knap",
+              "duration": 10,
+              "duration_without_skill": 30
+            }
+          }
+        ]
+      }
+    }
+  }
 }
